@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: "NAME";
-    src: url('WebsiteCurriculum/font/Autobus.ttf')
+    src: url('/font/Autobus.ttf')
 }
 
 body,html{
