@@ -1,0 +1,290 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "NAME";
+    src: url('WebsiteCurriculum/font/Autobus.ttf')
+}
+
+body,html{
+    background: #eee;
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+    color: #665;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    background: #333;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+
+}
+
+nav h4{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-family: NAME;
+    
+}
+
+.social a{
+    text-indent: -20000px;
+}
+
+.social{
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+nav ul.social{
+    flex: 1 1 0;
+    display: flex;
+}
+
+nav ul.social li{
+    flex: 1 1 0;
+}
+
+a.GH{
+    background: url(WebsiteCurriculum/img/git.png) no-repeat center;
+    background-size: 50%;
+}
+
+a.lI{
+    background: url(WebsiteCurriculum/img/In.png) no-repeat center;
+    background-size: 50%;
+}
+
+a.GM{
+    background: url(WebsiteCurriculum/img/gmail.png) no-repeat center;
+    background-size: 50%;
+}
+
+li button:hover{
+    background-color: #555;
+}
+
+
+nav a:hover{
+    background-color: #555;
+}
+
+
+.imagem1{
+    background: url(WebsiteCurriculum/img/city2.gif);
+    min-height: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem2{
+    background: url(WebsiteCurriculum/img/city.gif);
+    min-height: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem3{
+    background: url(WebsiteCurriculum/img/code.gif);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: whitesmoke;
+}
+
+.section h2{
+    color: grey;
+}
+
+.section ul{
+    align-content: center;
+    text-align: left;
+}
+
+.ptext{
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    
+}
+
+.ptext .border{
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
+    background-color: rgba(0, 153, 255, 0.04);
+    box-shadow: 0 0 70px 20px rgba(0, 120, 201, 0.04);
+    border-radius: 200px;
+    color: #ffd4a4;
+    line-height: 0.6;
+    filter: drop-shadow(0px 0px 13px rgb(0, 110, 255));
+    -webkit-text-stroke: 6px rgba(0, 204, 255, 0.5);
+    display: inline-block;    
+    animation: glow 170ms ease infinite forwards;
+}
+
+.ptext3{
+    position: absolute;
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    
+}
+
+.ptext3 .border3{
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
+    background-color: rgba(0, 153, 255, 0.04);
+    box-shadow: 0 0 70px 20px rgba(0, 120, 201, 0.04);
+    border-radius: 200px;
+    color: #ffd4a4;
+    line-height: 0.6;
+    filter: drop-shadow(0px 0px 13px rgb(0, 110, 255));
+    -webkit-text-stroke: 6px rgba(0, 204, 255, 0.5);
+    display: inline-block;    
+    animation: glow 170ms ease infinite forwards;
+}
+
+.Titulo{
+    text-align: left;
+    padding: 5% 0 0 5%;
+    font-weight: bold;
+}
+
+.progress{
+    text-align: left;
+    padding: 0 0 0 2%;
+}
+
+.titleAcademic{
+    margin: 0;
+    padding: 2% 0 0 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.skilz{
+    margin: 0 0 0 5%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+.skill{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.skill .item{
+    width: 100px;
+}
+
+
+.seccao{
+    text-align: center;
+    width: 90%;
+    margin: 0 0 0 5%;
+    background-size: 100% 100%;
+}
+
+
+
+table tr td{
+    text-align: left;
+    padding: 5px;
+    margin: 0;
+}
+
+table tr > td:first-child{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table{
+    text-align: center;
+    width: 90%;
+    padding: 5%;
+    border-spacing: 0;
+}
+
+@media screen and (min-width: 768px){
+    
+    nav ul{
+        display: flex;
+    
+    }
+    
+    nav li{
+        flex: 1 1 0;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social{
+        margin: 0%;
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 300px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+        display: block; 
+        font-size: 18px;
+	}
+}
